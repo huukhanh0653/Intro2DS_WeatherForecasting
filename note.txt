@@ -1,0 +1,4 @@
+TODO:
+1. Handle missing value (ngày nào trống thì điền vào chỗ trống ngày đó của năm sau hoặc năm trước)
+2. Chuyển bảng thành đo đạc nhiệt độ trung bình theo từng ngày, min, max and mean temp
+3. Tính tổng lượng mưa trong ngày
