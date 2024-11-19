@@ -102,9 +102,9 @@ class DecisionTreeModel:
         self.dataSet = result;
 
 df = pd.read_csv('preProcessedDataWithHmdx.csv');
-df = df.drop(['Year', 'Month', 'Day'], axis=1);
 dtm = DecisionTreeModel();
 dtm.AddDataSet(df);
 dtm.SetPredictionKey('HMDX_label');
 dtm.Fit();
 print("Prediction Set: ", dtm.Prediction());
+print(dtm.dataSet);
